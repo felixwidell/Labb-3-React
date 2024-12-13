@@ -1,0 +1,73 @@
+.FormBox {
+    width: 100%;
+    align-items: center;
+}
+
+.booking-form {
+    width: 45vw;
+    margin: auto;
+    height: 75vh;
+    background-color: rgb(49, 48, 48);
+    border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+    .booking-form {
+        width: 60vw; 
+        margin: auto;
+        height: 75vh;
+        background-color: rgb(49, 48, 48);
+        border-radius: 20px;
+    }
+}
+
+.booking-form > * {
+    color: white;
+    text-align: left;
+}
+
+.booking-form-wrapper {
+    margin: auto;
+    padding-left: 10px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 6px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 100%; 
+    max-width: 300px; 
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.btn {
+    color: black;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 90px;
+    height: 30px;
+    cursor: pointer; 
+    font-size:small;
+}
+
+.btn:hover {
+    background-color: rgb(212, 212, 212);
+}
